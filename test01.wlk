@@ -1,4 +1,4 @@
-	/* COLORES = .esFuerte()		*/
+					/* COLORES = .esFuerte()		*/
 object rojo{
 	method esFuerte(){
 		return true
@@ -20,7 +20,7 @@ object pardo{
 	}
 }
 
-	/* MATERIALES = .brilla()		agregar COBRE y MADERA */
+					/* MATERIALES = .brilla()		agregar COBRE y MADERA */
 object cobre{
 	method brilla(){
 		return true
@@ -47,7 +47,7 @@ object cuero{
 	}
 }
 
-	/* OBJETOS			COMPLETAR, agregar BIBLIOTECA y PLACA */
+					/* OBJETOS			COMPLETAR, agregar BIBLIOTECA y PLACA */
 object remera{
 	method color(){
 		return rojo
