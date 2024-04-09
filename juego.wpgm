@@ -2,5 +2,8 @@ import wollok.game.*
 
 program miPrimeroWollokGame{
   game.width(14)
-
+  game.height(8)
+  game.boardGround("empedrado.jpp")
+  game.cellSize(10)
+  game.start()
 }
