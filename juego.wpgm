@@ -5,5 +5,10 @@ program miPrimeroWollokGame{
   game.height(8)
   game.boardGround("empedrado.jpp")
   game.cellSize(10)
-  game.start()
+
+  /* hace que el OBJETO auto, aparezca en la ventada del programa */
+  game.addVisual(auto)
+
+  /* SIEMPRE TERMINA CON GAME.START() /*  
+  game.start() 
 }
